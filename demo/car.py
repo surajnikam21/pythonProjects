@@ -5,13 +5,20 @@ class Car:
         self.miles = int(miles)
 
 
-car1 = Car('Blue', 20000)
-car2 = Car('Red', 30000)
+    def carinfo(self):
+        return 'The {} car has {} miles.'.format(self.colour, self.miles)
 
 
-def carinfo(self):
-    return 'The {} car has {} miles.'.format(self.colour, self.miles)
+#Take the input from user
+
+print("Please enter the car color and its mileage")
+color = input("Enter Color.")
+miles = input("Enter car miles")
 
 
-print(carinfo(car1))
-print(carinfo(car2))
+car = Car(color, miles)
+
+print(car.carinfo())
+
+
+

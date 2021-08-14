@@ -25,16 +25,17 @@ print(o1)
 print(type(o1))
 print(o1.items_list)
 
+
 names= ['Suraj', 'Pawan', 'Birender']
 ages = [23, 24, 26]
 o1.update(names, ages)
 print(o1.items_list)
 
 
-obj1 = object()
-print(obj1)
-
-obj1 = o1
-print(obj1)
-print(obj1.__dict__)
-print(obj1.__module__)
+# obj1 = object()
+# print(obj1)
+#
+# obj1 = o1
+# print(obj1)
+# print(obj1.__dict__)
+# print(obj1.__module__)

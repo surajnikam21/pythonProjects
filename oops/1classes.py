@@ -12,9 +12,8 @@
 
 
 class Employee:
-
-    raise_amt = 1.04  #class variable
-    num_of_emps = 0   #static variables
+    raise_amt = 1.04  # class variable
+    num_of_emps = 0  # static variables
 
     # constructor : initializes class instance var
     def __init__(self, first, last, pay):
@@ -27,7 +26,7 @@ class Employee:
 
     # Instance method
     def fullname(self):
-       # return '{} {}'.format(self.first, self.last)
+        # return '{} {}'.format(self.first, self.last)
         return self.first + ' ' + self.last
 
     def raise_apply(self):
@@ -39,7 +38,6 @@ emp2 = Employee('Pankaj', 'Sharma', 20000)
 emp3 = Employee('Kiran', 'Suraj', 20000)
 print(Employee.num_of_emps)
 
-
 # print(emp1.first)
 # print(emp1.email)
 print(emp1.fullname())
@@ -48,13 +46,9 @@ print(emp1.pay)
 emp1.raise_apply()
 print(emp1.pay)
 
-
 # print(emp2.first)
 # print(emp2.email)
 print(emp2.fullname())
 print(emp2.pay)
 emp2.raise_apply()
 print(emp2.pay)
-
-
-

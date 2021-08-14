@@ -1,7 +1,7 @@
 #example of list
 #arrays are list
 
-fruits = ['apple', 'orange', 'banana']
+fruits = ['apple', 'orange', 'ban ana', 13213]
 courses = ['java', 'python', 'aws']
 
 print(fruits[2])  #banana
